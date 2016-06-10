@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*顶部*/
+body { background: #ecf5fc; }
+
+.first_top { width: 100%; background: #0055bf; }
+.first_top .container { overflow: hidden; }
+
+.dw_mini { line-height: 30px; font-family: '宋体'; font-size: 12px; }
+.dw_mini a ,.dw_mini div{ color: #ededed; font-size: 12px; padding: 0 0px 0 5px; position: relative; }
+.dw_mini a:hover { color: #fff; }
+.dw_mini a:after { content: "|"; position: relative; right: -6px; overflow: hidden; height: 14px !important; line-height: 1; }
+.dw_mini a.last { padding-right: 0; }
+.dw_mini a.last:after { content: " "; }
+
+.qqnav button { line-height: 1.32; background: none; padding-left: 30px; border: none; font-weight: normal; font-size: 13px; background: url(../images/new/common.png) 4px -37px no-repeat; width: 104px; padding-left: 10px; }
+
+/*导航*/
+.logo { line-height: 80px; position: relative;top: 10px; }
+
+.lmq_nav { line-height: 80px; background: none; border: 0; min-height: 0; }
+.lmq_nav .container-fluid, .lmq_nav .navbar-collapse { padding: 0; }
+.lmq_nav .navbar-nav > li { margin-right: -20px; margin-left: 20px; }
+.lmq_nav .navbar-nav > li > a { line-height: 80px; padding: 0 20px; display: block; background: none; font-size: 14px; color: #333; }
+.lmq_nav .navbar-nav > li > a:hover, .lmq_nav .navbar-nav > li > a:focus { background: #0055bf; }
+.lmq_nav .navbar-nav > li > a .glyphicon { color: #5cb85c; }
+.lmq_nav .navbar-nav > li > a .glyphicon:hover { color: #fff; }
+
+.p_nav { background: #fff;height: 90px;} 
+.navbar-inverse .navbar-nav > .active > a .glyphicon, .navbar-inverse .navbar-nav > .open > a .glyphicon { color: #fff; }
+
+/*公用底部*/
+.footer { background: #0157d2; padding-top: 82px; }
+.footer .copyright { color: #333; font-size: 14px; }
+
+.rqcode { display: block; float: left; color: #fff; line-height: 32px;  margin-left: 30px; }
+
+.rqcode .footericon3{font-size: 16px; }
+
+.footercon { float: left; margin-left: 26px; }
+
+.footercon div { float: left; display: inline-block; width: 200px;position: relative;}
+
+.footercon div span.footerline { position: absolute; right: 0; top: 0; width: 0; height: 200px; border-left: 1px solid #0039ac;border-right: 1px solid #0164e6; }
+
+.footercon div span { display: inline-block; line-height: 32px; color: #fff; }
+
+.footercon div span a { color: #fff; }
+
+.footercon div.lasttext { text-align: left; margin-left: 72px; }
+
+.footercon div .iconf { width: 100px;  font-size: 16px; font-family: "宋体"; font-weight:bold; }
+
+.footercon div i.iconf { display: inline-block; width: 18px; height: 18px; background-position: -481px -28px; margin-bottom: 0; margin-right: 10px; }
+
+.footercon div i.iconf.footericon4 { width: 19px; height: 15px; background-position: -457px -29px; }
+.copyright { color: #888888; margin-top: 20px; padding-top: 8px; padding-bottom: 8px; background-color: #f0f4f7; margin-bottom: -1px; }
+
+.friendlink { display: none; width: 980px; margin: 0 auto; margin-top: 20px; }
+
+.friendlink > span { display: inline-block; color: #6d6f88; float: left; line-height: 30px; }
+
+.friendlink ul { padding-left: 85px; }
+
+.friendlink ul li { display: inline; color: #6d6f88; line-height: 30px; }
+
+.friendlink ul li a { color: #6d6f88; }
+
+.phone-footer .phone-footerlink a { display: inline-block; color: #fff; width: 32%; border-right: 1px solid #22223e; text-align: center; }
+
+.phone-footer .phone-footerlink a:last-child { border: 0; }
+
+.phone-copyright { padding: 2rem 0; color: #6e6e8e; }
+
+  .footer { padding-top: 1.4rem; } 
+  .footercon { margin-left: 0; }
+  .footercon div { width: 130px; }
+  .footercon div.lasttext { margin-left: 10px; width: 187px; } 
+  .footercon { margin-left: 0; }
+  .footercon div { width: 168px; }
+  .footercon div.lasttext { margin-left: 30px; width: 204px;padding-right: 30px; } 
+ .rqcode .navbar-form{padding-left: 0;}
+  .rqcode div .glyphicon-search{ font-size: 20px; }
+@media (max-width: 767px) { 
+  .footer { padding-top: 1.4rem; } 
+@media (min-width: 768px) and (max-width: 991px) {
+  .rqcode { margin-left: 0px; }
+  .footercon { margin-left: 0; }
+  .footercon div { width: 130px; }
+  .footercon div.lasttext { margin-left: 10px; width: 187px; } 
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .rqcode { margin-left: 0px; }
+  .footercon { margin-left: 0; }
+  .footercon div { width: 180px; }
+  .footercon div.lasttext { margin-left: 36px; width: 187px; } 
+
+  .qc_share_icon_2 .bt_icon {
+    background-image: url(../images/share_icon.png);
+    background-position: 0 -32px;
+    width: 24px;
+    height: 24px;
+}
+  /*公用底部*/
