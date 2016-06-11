@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*筛选*/
+.list-search { background: #dcebfd;    border: 1px solid #a3b4cb; border-top: none;}
+.list-search .breadcrumb { background: none; }
+.list-search .breadcrumb li:before, .list-search .breadcrumb li:after { content: ""; padding: 0 5px; }
+.list-search .breadcrumb li.active { color: #e00501; }
+.list-search .breadcrumb li {font-size: 14px; }
+.list-search .breadcrumb li a { color: #2255dd; font-size: 14px; }
+.list-search .navbar { min-height: 40px; }
+.list-search .navbar-default { background: #aadaaa; border-color: #a3d7a3; }
+.list-search .navbar-default form .form-control-feedback { border-left: #ddd solid 1px; height: 26px; top: 4px; cursor: pointer; pointer-events: auto; }
+.list-search .navbar-default form .form-control-feedback:before { position: relative; top: -4px; }
+.list-search .line{ border-color: #c0daf9; }
+.list-search .w01 {
+    width: 108px;
+}
+.list-search .inputSel {
+    height: 30px;
+    line-height: 30px;
+}
+
+.list-search .caxun-btn {
+    width: 104px;
+    height: 31px;
+    line-height: 31px;
+    left: 0;
+    margin-right: 0px;
+        display: inline-block;
+    float: none;}
+.list-search .fabu-btn {
+    position: relative;
+    right: 40px;
+    left: 0;
+    margin-right: 8px;
+}    
+/*筛选*/
+
+/*货源信息*/
+.huoyuan-xx .title_01{ height: 62px; background: url(../images/list-huoyuanxinxi.png) center no-repeat; text-indent: -3000px; margin-bottom: 0px;}
+.huoyuan-xx .panel {
+    position: relative;
+    border: 0px solid #a3b4cb;
+    border-top: none;
+    border-radius: 0px;
+    background: none;
+    z-index: 1;
+
+}
+
+.huoyuan-xx .table{
+ background: none; border: none; border: 1px solid #a3b4cb; border-top: #1c5fc9 solid 2px;
+  }
+
+.huoyuan-xx .thead{
+border: none;
+  }
+.huoyuan-xx thead tr th{
+ color: #0a3e93; font-weight: bold;font-size: 16px;line-height: 28px; height: 28px; text-indent: 20px; background: #d3e9fb; border-bottom: none;
+  }
+.huoyuan-xx tbody tr th,.huoyuan-xx tbody tr td{ text-indent: 20px;
+  }
+.huoyuan-xx thead tr th.cakan{text-indent: 45px;}
+/*货源信息end*/
+
+/*车源信息*/
+.cheyuan-xx .title_01{ height: 62px; background: url(../images/cheyuanxinxi.png) center no-repeat; text-indent: -3000px; margin-bottom: 0px;}
+
+/*车源信息end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
