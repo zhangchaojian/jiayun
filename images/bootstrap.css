@@ -976,98 +976,63 @@ td, th { padding: 0; }
 /* line 307, ../../../bootstrap-sass/Style/common/css/bootstrap/_glyphicons.scss */
 .glyphicon-menu-up:before { content: "\e260"; }
 
-/* line 11, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 14, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 22, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 html { font-size: 10px; -webkit-tap-highlight-color: transparent; }
 
-/* line 27, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 body { font-family: "微软雅黑", "MicrosoftYaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 150%; line-height: 1.42857; color: #333333; background-color: #fff; }
 
-/* line 36, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
 
-/* line 48, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
-a { color: #5cb85c; text-decoration: none; }
-/* line 52, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
-a:hover, a:focus { color: #3d8b3d; text-decoration: none; }
-/* line 58, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
+a { color: #666; text-decoration: none; }
+a:hover, a:focus { color: #084199; text-decoration: none; }
 a:focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
 
-/* line 69, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 figure { margin: 0; }
 
-/* line 76, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 img { vertical-align: middle; }
 
-/* line 81, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 .img-responsive { display: block; max-width: 100%; height: auto; }
 
-/* line 86, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 .img-rounded { border-radius: 10px; }
 
-/* line 93, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 .img-thumbnail { padding: 4px; line-height: 1.42857; background-color: #fff; border: 1px solid #ddd; border-radius: 4px; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; display: inline-block; max-width: 100%; height: auto; }
 
-/* line 106, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 .img-circle { border-radius: 50%; }
 
-/* line 113, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #e7e7e7; }
 
-/* line 125, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 
-/* line 141, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-/* line 159, ../../../bootstrap-sass/Style/common/css/bootstrap/_scaffolding.scss */
 [role="button"] { cursor: pointer; }
 
-/* line 9, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; }
-/* line 16, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small { font-weight: normal; line-height: 1.1; color: #777777; }
 
-/* line 24, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h1, .h1, h2, .h2, h3, .h3 { margin-top: 20px; margin-bottom: 10px; }
-/* line 30, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h1 small, h1 .small, .h1 small, .h1 .small, h2 small, h2 .small, .h2 small, .h2 .small, h3 small, h3 .small, .h3 small, .h3 .small { font-size: 65%; }
 
-/* line 35, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h4, .h4, h5, .h5, h6, .h6 { margin-top: 10px; margin-bottom: 10px; }
-/* line 41, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h4 small, h4 .small, .h4 small, .h4 .small, h5 small, h5 .small, .h5 small, .h5 .small, h6 small, h6 .small, .h6 small, .h6 .small { font-size: 75%; }
 
-/* line 47, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h1, .h1 { font-size: 36px; }
 
-/* line 48, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h2, .h2 { font-size: 30px; }
 
-/* line 49, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h3, .h3 { font-size: 24px; }
 
-/* line 50, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h4, .h4 { font-size: 18px; }
 
-/* line 51, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h5, .h5 { font-size: 14px; }
 
-/* line 52, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 h6, .h6 { font-size: 12px; }
 
-/* line 58, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 p { margin: 0 0 10px; }
 
-/* line 62, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
-.lead { margin-bottom: 20px; font-size: 16px; font-weight: 300; line-height: 1.4; }
-@media (min-width: 768px) { /* line 62, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
-  .lead { font-size: 21px; } }
 
 /* line 78, ../../../bootstrap-sass/Style/common/css/bootstrap/_type.scss */
 small, .small { font-size: 85%; }
@@ -2537,7 +2502,16 @@ tbody.collapse.in { display: table-row-group; }
 .navbar-collapse:after { clear: both; }
 /* line 59, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
 .navbar-collapse.in { overflow-y: auto; }
-@media (min-width: 768px) { /* line 50, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+ 
+   .navbar-collapse { width: auto; border-top: 0; box-shadow: none; }
+  /* line 68, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+  .navbar-collapse.collapse { display: block !important; height: auto !important; padding-bottom: 0; overflow: visible !important; }
+  /* line 75, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+  .navbar-collapse.in { overflow-y: visible; }
+  /* line 81, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+  .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { padding-left: 0; padding-right: 0; }
+
+  @media (min-width: 768px) { /* line 50, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-collapse { width: auto; border-top: 0; box-shadow: none; }
   /* line 68, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-collapse.collapse { display: block !important; height: auto !important; padding-bottom: 0; overflow: visible !important; }
@@ -2590,7 +2564,11 @@ tbody.collapse.in { display: table-row-group; }
   .navbar-nav .open .dropdown-menu > li > a { line-height: 20px; }
   /* line 257, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus { background-image: none; } }
-@media (min-width: 768px) { /* line 232, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+  .navbar-nav { float: left; margin: 0; }
+  /* line 270, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+  .navbar-nav > li { float: left; }
+  /* line 272, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+  .navbar-nav > li > a { padding-top: 15px; padding-bottom: 15px; } @media (min-width: 768px) { /* line 232, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-nav { float: left; margin: 0; }
   /* line 270, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-nav > li { float: left; }

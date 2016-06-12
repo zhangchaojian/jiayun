@@ -29,10 +29,10 @@ body { background: #ecf5fc; }
 .navbar-inverse .navbar-nav > .active > a .glyphicon, .navbar-inverse .navbar-nav > .open > a .glyphicon { color: #fff; }
 
 /*公用底部*/
-.footer { background: #0157d2; padding-top: 82px; }
+.footer { background: #0157d2; padding-top: 25px; }
 .footer .copyright { color: #333; font-size: 14px; }
 
-.rqcode { display: block; float: left; color: #fff; line-height: 32px;  margin-left: 30px; }
+.rqcode { display: block; float: left; color: #fff; line-height: 32px;  margin-left: 30px; width: 231px; }
 
 .rqcode .footericon3{font-size: 16px; }
 
@@ -71,7 +71,6 @@ body { background: #ecf5fc; }
 
 .phone-copyright { padding: 2rem 0; color: #6e6e8e; }
 
-  .footer { padding-top: 1.4rem; } 
   .footercon { margin-left: 0; }
   .footercon div { width: 130px; }
   .footercon div.lasttext { margin-left: 10px; width: 187px; } 
