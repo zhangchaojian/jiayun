@@ -145,6 +145,11 @@ width: 40px; text-align: center;
 /*大幻灯*/
 
 /*货源信息*/
+.huoyuan-xx .huoyuan-xx-right{width: 908px; float: right;}
+.huoyuan-xx .huoyuan-xx-left{width: 285px;float: left; padding-top: 24px;}
+.huoyuan-xx .huoyuan-xx-left .title_02{font-size: 14px;color: #fff;background: url(../images/title_02_bg.jpg);height: 31px; line-height: 31px; padding-left:25px;  position: relative;}
+.huoyuan-xx .huoyuan-xx-left .title_02 .more{position: absolute;right: 10px;top: 5px; color: #1758c2; font-size: 12px;}
+.huoyuan-xx .huoyuan-xx-left .caption h3{font-size: 14px;color: #0277bd;margin-top: 5px; margin-bottom: 5px;}
 .huoyuan-xx .title_01{ height: 62px; background: url(../images/huoyuanxinxi.png) center no-repeat; text-indent: -3000px; margin-bottom: 0px;}
 .huoyuan-xx .panel {
     position: relative;
@@ -154,7 +159,7 @@ width: 40px; text-align: center;
     z-index: 1;
 }
 .huoyuan-xx .panel .table-foot{
- background: url(../images/table-foot-bg.png) repeat-x; position: absolute; bottom: 0px;  height: 110px; z-index: -1; width: 1198px;border-radius: 10px;
+ background: url(../images/table-foot-bg.png) repeat-x; position: absolute; bottom: 0px;  height: 110px; z-index: -1; width: 906px;border-radius: 10px;
   }
 .huoyuan-xx .table{
  background: url(../images/thead-bg.png) center 20px no-repeat; border: none;

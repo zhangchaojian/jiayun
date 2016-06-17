@@ -2503,15 +2503,7 @@ tbody.collapse.in { display: table-row-group; }
 /* line 59, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
 .navbar-collapse.in { overflow-y: auto; }
  
-   .navbar-collapse { width: auto; border-top: 0; box-shadow: none; }
-  /* line 68, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
-  .navbar-collapse.collapse { display: block !important; height: auto !important; padding-bottom: 0; overflow: visible !important; }
-  /* line 75, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
-  .navbar-collapse.in { overflow-y: visible; }
-  /* line 81, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
-  .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { padding-left: 0; padding-right: 0; }
-
-  @media (min-width: 768px) { /* line 50, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+ @media (min-width: 768px) { /* line 50, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-collapse { width: auto; border-top: 0; box-shadow: none; }
   /* line 68, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-collapse.collapse { display: block !important; height: auto !important; padding-bottom: 0; overflow: visible !important; }
@@ -2564,11 +2556,7 @@ tbody.collapse.in { display: table-row-group; }
   .navbar-nav .open .dropdown-menu > li > a { line-height: 20px; }
   /* line 257, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus { background-image: none; } }
-  .navbar-nav { float: left; margin: 0; }
-  /* line 270, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
-  .navbar-nav > li { float: left; }
-  /* line 272, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
-  .navbar-nav > li > a { padding-top: 15px; padding-bottom: 15px; } @media (min-width: 768px) { /* line 232, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
+@media (min-width: 768px) { /* line 232, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-nav { float: left; margin: 0; }
   /* line 270, ../../../bootstrap-sass/Style/common/css/bootstrap/_navbar.scss */
   .navbar-nav > li { float: left; }
