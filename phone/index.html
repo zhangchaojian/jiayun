@@ -14,14 +14,14 @@
   <script src="./images/html5shiv.min.js"></script>
   <script src="./images/respond.min.js"></script>
 <![endif]-->
-<script type="text/javascript" src="./images/jquery.min.js"></script>
+<script type="text/javascript" src="./images/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="./images/bootstrap.min.js"></script>
 
 </head>
 <body>
 <link rel="stylesheet" href="./images/phone.css">
 <div class="logo_box">
-  <div class="index_logo kuandu_box">
+  <div class="index_logo container-fluid">
          <div>
              <a href=""><img src="./images/phone-logo.png" class="shouye_logo"></a>
          </div>
@@ -30,7 +30,7 @@
 
 </div>
 
-<div id="carousel-example-generic2" class="carousel slide container" data-ride="carousel">
+<div id="carousel-example-generic2" class="carousel slide container-fluid" data-ride="carousel">
   <div class="row">
     <div class="ticket-sousuo">
         <div class="slideTxtBox">
@@ -164,7 +164,7 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="center-block" src="./images/phone-banner.jpg" alt="..." width="640">
+      <img class="center-block" src="./images/phone-banner.jpg" alt="..." width="100%">
     </div> </div>
 
   <a class="left carousel-control none" href="#carousel-example-generic2" role="button" data-slide="prev">
@@ -178,7 +178,7 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row phone-fabu">
       <a href="" class="fabu-btn"><img src="./images/fb-huo.jpg"></a>
       <a href="" class="fabu-btn"><img src="./images/fb-che.jpg"></a>
@@ -186,7 +186,7 @@
 </div>
 
 <!-- 货源信息 -->
-<div class="container">
+<div class="container-fluid">
     <div class="row huoyuan-xx">
       <div class="phone-title"></div>
       <div class="border-left-right"></div>
@@ -266,7 +266,7 @@
 <!-- 货源信息end -->
 <div class="clr h10"></div>
 <!-- 车源信息 -->
-<div class="container">
+<div class="container-fluid">
     <div class="row huoyuan-xx cheyuan-xx">
       <div class="phone-title"></div>
       <div class="border-left-right"></div>
@@ -344,6 +344,69 @@
     </div>
 </div>
 <!-- 车源信息end -->
+<!-- 底部导航 -->
+<nav id="navbar-example" class="navbar navbar-default navbar-static">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="./images/brand.jpg"></a>
+        </div>
+        <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                车源货源
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop1">
+                <li><a href="#">车源货源</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">佳润化工</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">我的</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                佳润化工
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop2">
+                <li><a href="#">车源货源</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">佳润化工</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">我的</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                我的
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop3">
+                <li><a href="#">车源货源</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">佳润化工</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">我的</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
+ <!-- 底部导航 end-->
+<script type="text/javascript">
+  $('.dropdown-toggle').dropdown();
+</script>
 </body>
 </html>
