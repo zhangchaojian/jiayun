@@ -1,0 +1,622 @@
+@charset "UTF-8";
+.logo_box {
+  background: #0155bf;
+  height: auto;
+  overflow: hidden;
+}
+
+.logo_box .shouye_logo {
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kuandu_box {
+  max-width: 640px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 16px;
+  clear: both;
+}
+
+/*订票框*/
+.ticket-sousuo {
+  position: absolute;
+  z-index: 999;
+  display: block;
+  max-width: 640px;
+  right: 58px;
+  top: 35px;
+}
+
+.ticket-sousuo .ticket-badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.ticket-sousuo .slideTxtBox {
+  width: 510px;
+  height: 370px;
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+  background: url(/phone/images/slideTxtBox-bg.png) center no-repeat;
+  padding: 15px 10px;
+  border-radius: 18px;
+}
+
+.ticket-sousuo .slideTxtBox .hd {
+  height: 45px;
+  line-height: 45px;
+  padding: 0px;
+  position: relative;
+}
+
+.ticket-sousuo .slideTxtBox .hd ul {
+  float: left;
+  position: absolute;
+}
+
+.ticket-sousuo .slideTxtBox .hd ul li {
+  width: 137px;
+  height: 43px;
+  float: left;
+  cursor: pointer;
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.ticket-sousuo .slideTxtBox .hd ul li.on {
+  background: url(/phone/images/btn-01.png) center no-repeat;
+  color: #fff;
+}
+
+.ticket-sousuo .slideTxtBox .bd {
+  padding: 10px 15px;
+  zoom: 1;
+}
+
+.ticket-sousuo .slideTxtBox .bd ul {
+  zoom: 1;
+}
+
+.ticket-sousuo .s_item_cont .s_item label {
+  width: 103px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.ticket-tab {
+  margin: 0px 0px 0px 0px;
+}
+
+.ticket-tab .st-tabnav span i {
+  background: url(/resticket/img-active-h3-blue.png) no-repeat center bottom;
+}
+
+.ticket-tab .st-tabnav .on {
+  color: #4e8bd2;
+}
+
+.ticket-tab .st-tabnav .on i {
+  display: inline-block;
+}
+
+.ticket-tab .st-tabnav span {
+  float: left;
+  color: #333;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.ticket-tab .st-tabnav .city-more {
+  text-align: right;
+  font-size: 12px;
+  color: #808080;
+  float: right;
+  display: block;
+}
+
+.ticket-tab .st-tabnav {
+  height: 40px;
+  border-bottom: 2px solid #ddd;
+  line-height: 40px;
+}
+
+.ticket-tab .st-tabnav span {
+  position: relative;
+}
+
+.ticket-tab .st-tabnav span i {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 7px;
+  left: 10px;
+  margin-left: -10px;
+  bottom: -2px;
+}
+
+.s_item {
+  float: left;
+  display: inline;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 50px;
+  text-align: left;
+  height: 50px;
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.s_item .inputSel {
+  border: 1px solid #cbcbcb;
+  height: 38px;
+  line-height: 38px;
+  color: #9e9e9e;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.s_item .caxun-btn {
+  width: 137px;
+  height: 46px;
+  float: left;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin-right: 60px;
+  background: #e00501;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  left: 108px;
+}
+
+.s_item .fabu-btn {
+  position: relative;
+  left: 50px;
+}
+
+.s_item.s_item_radio {
+  height: 35px;
+}
+
+.s_item .w01 {
+  width: 152px;
+}
+
+.s_item .ticket-badge {
+  width: 40px;
+  text-align: center;
+}
+
+.border-gongtong {
+  -moz-border-radius: 5px;
+  /* Firefox */
+  -webkit-border-radius: 5px;
+  /* Safari 和 Chrome */
+  border-radius: 5px;
+  /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+  behavior: url(ie-css3.htc);
+  /* 通知IE浏览器调用脚本作用于'box'类 */
+}
+
+.s_item input[type=radio] {
+  margin-top: 15px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.s_item input[type=button] {
+  width: 189px;
+  height: 33px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/*订票框 end*/
+/*发布*/
+.phone-fabu {
+  padding: 16px 12px;
+  background: #fff;
+}
+
+.phone-fabu .fabu-btn {
+  border: #b5b5b5 solid 1px;
+  width: 478.5px;
+  display: inline-block;
+  border-radius: 0px;
+  padding: 0;
+  background: #fff;
+  margin-right: -2.5px;
+}
+
+.phone-fabu .fabu-btn + .fabu-btn {
+  margin-left: -2.5px;
+}
+
+.phone-fabu .fabu-btn img {
+  width: 100%;
+}
+
+/*发布*/
+/*货源信息*/
+.huoyuan-xx {
+  padding: 0px 11px;
+  background: #fff;
+}
+
+.huoyuan-xx .phone-title {
+  border: #b5b5b5 solid 1px;
+  height: 60px;
+  background: #31a4e5 url(/phone/images/huoyuan-xx.jpg) center no-repeat;
+  border-bottom: none;
+}
+
+.huoyuan-xx .border-left-right {
+  border-left: #b5b5b5 solid 1px;
+  border-right: #b5b5b5 solid 1px;
+  height: 5px;
+}
+
+.huoyuan-xx .table {
+  background: none;
+  border: #b5b5b5 solid 1px;
+  border-top: none;
+  padding-top: 5px;
+}
+
+.huoyuan-xx .thead {
+  border: none;
+}
+
+.huoyuan-xx thead tr th {
+  color: #0a3e93;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  height: 28px;
+  text-indent: 20px;
+  background: #d3e9fb;
+  border-bottom: none;
+}
+
+.huoyuan-xx thead tr th:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.huoyuan-xx thead tr th:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.huoyuan-xx tbody tr th, .huoyuan-xx tbody tr td {
+  text-indent: 20px;
+  color: #31a4e5;
+  border-bottom: 1px solid #a3b4cb;
+  border-top: none;
+  line-height: 2.42857;
+}
+
+.huoyuan-xx thead tr th.cakan {
+  text-indent: 45px;
+}
+
+/*货源信息end*/
+/*车源信息*/
+.cheyuan-xx .phone-title {
+  height: 62px;
+  background: #31a4e5 url(/phone/images/cheyuan-xx.jpg) center no-repeat;
+  text-indent: -3000px;
+}
+
+/*车源信息end*/
+/*发货信息*/
+.fahuo-xx {
+  padding: 13px 12px;
+  background: #ecf5fc;
+}
+
+.fahuo-xx .form {
+  position: relative;
+  border: 1px solid #a3b4cb;
+  border-radius: 10px;
+  background: url(/phone/images/table-bg.png) repeat-x;
+  z-index: 1;
+  padding: 20px;
+}
+
+.fahuo-xx .form .form-group {
+  margin-bottom: 25px;
+}
+
+.fahuo-xx .form .form-group .btn-primary {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.fahuo-xx .form .form-group .control-label {
+  font-size: 18px;
+  color: #198aca;
+  padding-left: 0;
+  line-height: 2em;
+}
+
+.fahuo-xx .form .form-group .form-control {
+  border-top: #31a4e5 solid 1px;
+  border-radius: 0;
+  height: 49px;
+  line-height: 2em;
+}
+
+/*发货信息 end*/
+/*货源信息*/
+/*货源信息*/
+/*筛选*/
+.list-search {
+  background: #dcebfd;
+  border: 1px solid #a3b4cb;
+  border-top: none;
+}
+
+.list-search .form-group {
+  margin-bottom: 0;
+}
+
+.list-search .s_item {
+  height: auto;
+}
+
+.list-search .breadcrumb {
+  background: none;
+  margin-bottom: 0;
+}
+
+.list-search .breadcrumb li:before, .list-search .breadcrumb li:after {
+  content: "";
+  padding: 0 5px;
+}
+
+.list-search .breadcrumb li.active {
+  color: #e00501;
+}
+
+.list-search .breadcrumb li {
+  font-size: 14px;
+}
+
+.list-search .breadcrumb li a {
+  color: #2255dd;
+  font-size: 14px;
+}
+
+.list-search .navbar {
+  min-height: 40px;
+}
+
+.list-search .navbar-default {
+  background: #aadaaa;
+  border-color: #a3d7a3;
+}
+
+.list-search .navbar-default form .form-control-feedback {
+  border-left: #ddd solid 1px;
+  height: 26px;
+  top: 4px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.list-search .navbar-default form .form-control-feedback:before {
+  position: relative;
+  top: -4px;
+}
+
+.list-search .line {
+  border-color: #c0daf9;
+}
+
+.list-search .w01 {
+  width: 108px;
+}
+
+.list-search .inputSel {
+  height: 30px;
+  line-height: 30px;
+}
+
+.list-search .caxun-btn {
+  line-height: 31px;
+  background: none;
+  left: 0;
+  margin-right: 0px;
+  float: right;
+}
+
+.list-search .fabu-btn {
+  position: relative;
+  right: 40px;
+  left: 0;
+  margin-right: 8px;
+}
+
+/*筛选*/
+.huoyuan-xx {
+  background: #ecf5fc;
+}
+
+.huoyuan-xx .title_01 {
+  height: 95px;
+  background: url(/phone/images/phone-list-huoyuanxinxi.png) center no-repeat;
+  text-indent: -3000px;
+  margin-bottom: 0px;
+  background-size: 100%;
+}
+
+.huoyuan-xx .panel {
+  position: relative;
+  border: 0px solid #a3b4cb;
+  border-top: none;
+  border-radius: 0px;
+  background: #dcebfc;
+  z-index: 1;
+}
+
+.huoyuan-xx .table {
+  background: none;
+  border: none;
+  border: 1px solid #a3b4cb;
+  border-top: #1c5fc9 solid 2px;
+}
+
+.huoyuan-xx .thead {
+  border: none;
+}
+
+.huoyuan-xx thead tr th {
+  color: #0a3e93;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  height: 28px;
+  text-indent: 20px;
+  background: #d3e9fb;
+  border-bottom: none;
+}
+
+.huoyuan-xx tbody tr th, .huoyuan-xx tbody tr td {
+  text-indent: 20px;
+}
+
+.huoyuan-xx thead tr th.cakan {
+  text-indent: 45px;
+}
+
+/*货源信息end*/
+/*车源信息*/
+.cheyuan-xx .title_01 {
+  height: 95px;
+  background: url(phone-cheyuanxinxi.png) center no-repeat;
+  text-indent: -3000px;
+  margin-bottom: 0px;
+  background-size: 100%;
+}
+
+/*车源信息end*/
+/*会员中心*/
+.member-info {
+  background: #ecf5fc;
+  padding: 25px 20px;
+}
+
+.member-info .media-body {
+  color: #666;
+  font-size: 35px;
+  line-height: 2em;
+}
+
+.member-info .media-body .media-heading {
+  color: #0155bf;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.center-nav {
+  padding: 0px 20px;
+}
+
+.center-nav .table {
+  background: #fff;
+}
+
+.center-nav .table > thead > tr > th, .center-nav .table > thead > tr > td, .center-nav .table > tbody > tr > th, .center-nav .table > tbody > tr > td, .center-nav .table > tfoot > tr > th, .center-nav .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 2.42857;
+  vertical-align: top;
+  border-top: 0px solid #ddd;
+  text-align: center;
+}
+
+.center-nav .table > thead > tr > th a, .center-nav .table > thead > tr > td a, .center-nav .table > tbody > tr > th a, .center-nav .table > tbody > tr > td a, .center-nav .table > tfoot > tr > th a, .center-nav .table > tfoot > tr > td a {
+  font-size: 42px;
+  color: #777;
+}
+
+.member-count {
+  padding: 0px 20px;
+  font-size: 42px;
+}
+
+/*会员中心 end*/
+/*底部导航*/
+.navbar-nav {
+  width: 85%;
+}
+
+.nav > li {
+  width: 25%;
+}
+
+.navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.navbar-nav > li > a .caret {
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px dashed;
+  border-right: 10px solid \9;
+  right: 10px;
+  bottom: 9px;
+  position: absolute;
+}
+
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-bottom: 0px solid transparent\9;
+  content: "";
+}
+
+.navbar-brand {
+  padding: 8px 7px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #555;
+  background-color: none;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: none;
+  color: #555;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 24px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  bottom: 100%;
+}
+
+/*底部导航 end*/
